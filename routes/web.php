@@ -46,3 +46,7 @@ Route::resource('admin/form-kategori', 'App\\Http\\Controllers\\Admin\formKatego
 Route::resource('admin/form-cart', 'App\\Http\\Controllers\\Admin\formCartController');
 Route::resource('admin/form-transaction', 'App\\Http\\Controllers\\Admin\formTransactionController');
 Route::resource('admin/formtransaction_detail', 'App\\Http\\Controllers\\Admin\formtransaction_detailController');
+Route::resource('admin/utility-stock', 'App\Http\Controllers\Admin\UtilityStockController');
+
+Route::get('admin/laporan-transaksi', 'App\Http\Controllers\Admin\ReportTransactionController@index');
+Route::get('admin/laporan-transaksi/pdf', 'App\Http\Controllers\Admin\ReportTransactionController@pdf');

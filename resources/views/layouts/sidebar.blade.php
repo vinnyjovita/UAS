@@ -2,7 +2,7 @@
     <!-- Add icons to the links using the .nav-icon class
          with font-awesome or any other icon font library -->
 
-     
+
     <li class="nav-item">
       <a href="http://127.0.0.1:8000/admin/form-kategori" class="nav-link">
         <i class="fas fa-th nav-icon"></i>
@@ -32,6 +32,22 @@
           <i class="fas fa-align-left nav-icon"></i>
           <p>
             Transaction
+          </p>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="http://127.0.0.1:8000/admin/utility-stock" class="nav-link">
+          <i class="fas fa-toolbox nav-icon"></i>
+          <p>
+            Utility stock
+          </p>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="http://127.0.0.1:8000/admin/laporan-transaksi" class="nav-link">
+          <i class="fas fa-toolbox nav-icon"></i>
+          <p>
+            Laporan transaksi
           </p>
         </a>
       </li>
